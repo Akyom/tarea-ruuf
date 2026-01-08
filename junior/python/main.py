@@ -5,9 +5,22 @@ import json
 def calculate_panels(panel_width: int, panel_height: int, 
                     roof_width: int, roof_height: int) -> int:
     
-    # Implementa acá tu solución
-    
-    return 0
+    # Opción 1: panel sin rotar
+    panels_without_rotation = (
+        roof_width // panel_width
+    ) * (
+        roof_height // panel_height
+    )
+
+    # Opción 2: panel rotado
+    panels_with_rotation = (
+        roof_width // panel_height
+    ) * (
+        roof_height // panel_width
+    )
+
+    # Retornar la mejor opción
+    return max(panels_without_rotation, panels_with_rotation)
 
 
 def run_tests() -> None:
