@@ -34,7 +34,7 @@ Tu solución debe pasar los siguientes casos de prueba:
 
 ## 📝 Tu Solución
 
-Deja acá el link a tu video explicando tu solución con tus palabras
+https://youtu.be/IzJeDNyBZCo
 
 ---
 
@@ -58,5 +58,5 @@ Si completaste alguno de los ejercicios bonus, explica tu solución aquí:
 
 ## 🤔 Supuestos y Decisiones
 
-*[Si tuviste que tomar algún supuesto o decisión de diseño, explícalo aquí]*
+Se asume que el ancho y el alto de los techos y paneles es mayor a 0.
 
